@@ -7,15 +7,25 @@ body {
   font-family: "Merriweather", serif;
 }
 
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #f00;
+  border: 0;
+  padding: 15px 30px;
+  margin-top: 48px;
+}
 .header-container {
-  background-image: url("../resources/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
   width: 1320px;
   height: 600px;
   margin: 50px auto 0;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  /* align-items: center; */
-  /* text-align: center; */
+  border-radius: 16px;
 }
 
 .header-content {
@@ -79,5 +89,85 @@ body {
   width: 802.9px;
   height: 500px;
   display: block;
-  margin: 20px auto;
+  margin: 48px auto 0;
+}
+
+.mid-party {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  margin: 120px auto 0;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 16px;
+}
+
+.mid-party-content {
+  margin: 70px 0 0 100px;
+}
+
+.mid-party h1 {
+  display: block;
+  max-width: 642px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.mid-party p {
+  display: block;
+  max-width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mid-party button {
+  /* margin-top: 48px; */
+  margin-left: 32px;
+}
+.mid-party img {
+  /* display: flex; */
+  width: 319.83px;
+  height: 464.662px;
+  /* padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin: 65px 100px 0 0;
+}
+.party-details {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  margin: 50px auto 0;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* line-height: 10px; */
+}
+.party-place-time {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 5px;
+}
+.prime {
+  color: #f00;
 }
