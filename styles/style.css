@@ -1,3 +1,7 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
 body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
@@ -37,4 +41,43 @@ body {
   font-weight: 900;
   line-height: 90px; /* 131.944% */
   margin-top: 0;
+}
+
+.discount {
+  margin-top: 120px;
+  align-items: center;
+}
+
+.discount h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.discount h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+.discount h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.discount img {
+  /* margin: 20px auto; */
+  width: 802.9px;
+  height: 500px;
+  display: block;
+  margin: 20px auto;
 }
