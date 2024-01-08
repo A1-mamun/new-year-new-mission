@@ -17,7 +17,7 @@ body {
   background: #f00;
   border: 0;
   padding: 15px 30px;
-  margin-top: 48px;
+  /* margin-top: 48px; */
 }
 .header-container {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -132,7 +132,7 @@ body {
 }
 
 .mid-party button {
-  /* margin-top: 48px; */
+  margin-top: 48px;
   margin-left: 32px;
 }
 .mid-party img {
@@ -167,20 +167,14 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 5px;
+  /* margin-bottom: 48px; */
 }
 .prime {
   color: #f00;
 }
 
-.round-image {
-  border: 10px solid #ff0000;
-
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.party-details button {
+  margin-top: 48px;
 }
 
 .offer {
@@ -197,6 +191,16 @@ body {
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
+}
+.round-image {
+  border: 10px solid #ff0000;
+
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .offer-2024 {
   max-width: 280px;
@@ -239,4 +243,74 @@ body {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 16px;
+}
+
+.gift {
+  width: 1320px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.best-gift {
+  max-width: 896px;
+}
+.gift-product {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.gift-product img {
+  width: 424px;
+  height: 450px;
+  border-radius: 16px;
+  transition: 0.3s ease-in-out;
+}
+.gift-product img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+.subscriber {
+  width: 1320px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 120px auto;
+}
+.subscribe-newsletter {
+  max-width: 900px;
+  text-align: center;
+}
+
+.subscriber img {
+  margin-bottom: 48px;
+}
+.user-email-form {
+  margin-top: 0;
+  display: flex;
+  gap: 0;
+}
+
+.user-email-form input {
+  color: rgba(7, 2, 17, 0.3);
+  border: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 200px 20px 25px;
+  border-radius: 50px 0 0 50px;
+}
+.btn-subscribe {
+  color: #fff;
+  border: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 24px 56px;
 }
