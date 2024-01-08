@@ -19,6 +19,10 @@ body {
   padding: 15px 30px;
   /* margin-top: 48px; */
 }
+.btn:hover {
+  color: #f00;
+  background: #3f3240;
+}
 .header-container {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png");
@@ -363,4 +367,51 @@ footer {
   font-weight: 400;
   display: flex;
   justify-content: space-between;
+}
+
+/* .holiday {
+  width: 1320px;
+  margin: 0 auto;
+} */
+.holiday-content {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+.holiday-content h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holiday-content h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.holiday-discount {
+  width: 1320px;
+  background-image: url("../resources/Rectangle\ 2.png"),
+    url("../resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom, top right;
+  margin: 0 auto 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.holiday-discount > img {
+  width: 785px;
+}
+.round-discount-image {
+  width: 210px;
+  height: 210px;
+}
+.round-discount-image-container {
+  margin: 0 600px 200px 0;
 }
