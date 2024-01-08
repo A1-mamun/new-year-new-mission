@@ -357,6 +357,9 @@ footer {
   padding: 48px 0;
   border-bottom: 1px solid #ffffff26;
 }
+.social-media a:hover {
+  transform: scale(1.05);
+}
 .copyright {
   color: #fff;
   width: 1320px;
@@ -369,10 +372,6 @@ footer {
   justify-content: space-between;
 }
 
-/* .holiday {
-  width: 1320px;
-  margin: 0 auto;
-} */
 .holiday-content {
   max-width: 1000px;
   text-align: center;
